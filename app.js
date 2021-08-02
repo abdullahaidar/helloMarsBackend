@@ -7,14 +7,12 @@ var logger = require("morgan");
 var indexRouter = require("./routes/index");
 var usersRouter = require("./routes/users");
 
-var app = express();
-
-const low = require("lowdb");
-const FileSync = require("lowdb/adapters/FileSync");
+// const low = require("lowdb");
+// const FileSync = require("lowdb/adapters/FileSync");
 
 var app = express();
-const adapter = new FileSync("data/db.json");
-const db = low(adapter);
+// const adapter = new FileSync("data/db.json");
+// const db = low(adapter);
 
 // view engine setup
 app.set("views", path.join(__dirname, "views"));
