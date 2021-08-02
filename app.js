@@ -1,5 +1,6 @@
 var createError = require("http-errors");
 var express = require("express");
+var cors = require("cors");
 var path = require("path");
 var cookieParser = require("cookie-parser");
 var logger = require("morgan");
@@ -11,8 +12,11 @@ var usersRouter = require("./routes/users");
 // const FileSync = require("lowdb/adapters/FileSync");
 
 var app = express();
+
 // const adapter = new FileSync("data/db.json");
 // const db = low(adapter);
+
+app.use(cors());
 
 // view engine setup
 app.set("views", path.join(__dirname, "views"));
