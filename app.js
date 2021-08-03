@@ -1,5 +1,15 @@
 var createError = require("http-errors");
 var express = require("express");
+
+var { join, dirname } = require("path");
+var { Low, JSONFile } = require("lowdb");
+var { fileURLToPath } = require("url");
+
+// Use JSON file for storage
+const file = join(__dirname, "data/dummy.json");
+const adapter = new JSONFile(file);
+const db = new Low(adapter);
+
 var cors = require("cors");
 var path = require("path");
 var cookieParser = require("cookie-parser");
@@ -8,13 +18,25 @@ const axios = require("axios");
 var indexRouter = require("./routes/index");
 var usersRouter = require("./routes/users");
 
-// const low = require("lowdb");
-// const FileSync = require("lowdb/adapters/FileSync");
-
 var app = express();
 
-// const adapter = new FileSync("data/db.json");
-// const db = low(adapter);
+db.read();
+
+// If file.json doesn't exist, db.data will be null
+// Set default data
+// db.data ||= { posts: [] };
+db.data = db.data || { posts: [] }; // for node < v15.x
+
+// Create and query items using plain JS
+db.data.posts.push("hello world");
+db.data.posts[0];
+
+// You can also use this syntax if you prefer
+const { posts } = db.data;
+posts.push("hello world");
+
+// Write db.data content to db.json
+db.write();
 
 app.use(cors());
 
