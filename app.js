@@ -6,7 +6,7 @@ var { Low, JSONFile } = require("lowdb");
 var { fileURLToPath } = require("url");
 
 // Use JSON file for storage
-const file = join(__dirname, "data/dummy.json");
+const file = join(__dirname, "data/db.json");
 const adapter = new JSONFile(file);
 const db = new Low(adapter);
 
@@ -17,26 +17,13 @@ var logger = require("morgan");
 const axios = require("axios");
 var indexRouter = require("./routes/index");
 var usersRouter = require("./routes/users");
+var weatherRouter = require("./routes/weatherRoute");
 
 var app = express();
 
 db.read();
 
-// If file.json doesn't exist, db.data will be null
-// Set default data
-// db.data ||= { posts: [] };
-db.data = db.data || { posts: [] }; // for node < v15.x
 
-// Create and query items using plain JS
-db.data.posts.push("hello world");
-db.data.posts[0];
-
-// You can also use this syntax if you prefer
-const { posts } = db.data;
-posts.push("hello world");
-
-// Write db.data content to db.json
-db.write();
 
 app.use(cors());
 
@@ -52,6 +39,7 @@ app.use(express.static(path.join(__dirname, "public")));
 
 app.use("/", indexRouter);
 app.use("/users", usersRouter);
+app.use("/weather", weatherRouter);
 
 // catch 404 and forward to error handler
 app.use(function (req, res, next) {
