@@ -1,13 +1,19 @@
-const low = require ("lowdb");
+const { Low, JSONFile} = require ("lowdb");
+var { join, dirname } = require("path");
+const file = join(__dirname, "../data/db.json");
 const adapter = new JSONFile(file);
 const db = new Low(adapter);
-var { Low, JSONFile } = require("lowdb");
 
-exports.getWeather = (req, res) => {
+
+
+exports.getWeather = async (req, res, next) => {
   try {
     // get all data
-    const weather = db.get('weather').value();
-    res.status(200).send(weather);
+   await db.read()
+console.log(db.data)
+    
+    const { weather } = db.data
+            res.status(200).send(weather);
   } catch (error) {
     console.log(error);
     next(error);

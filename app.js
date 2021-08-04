@@ -5,7 +5,7 @@ var { join, dirname } = require("path");
 var { Low, JSONFile } = require("lowdb");
 var { fileURLToPath } = require("url");
 
-// Use JSON file for storage
+//Use JSON file for storage
 const file = join(__dirname, "data/db.json");
 const adapter = new JSONFile(file);
 const db = new Low(adapter);
@@ -21,7 +21,10 @@ var weatherRouter = require("./routes/weatherRoute");
 
 var app = express();
 
+
 db.read();
+db.data = db.data || { weather: [] }
+
 
 
 
