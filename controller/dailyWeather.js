@@ -10,8 +10,6 @@ exports.getWeather = async (req, res, next) => {
   try {
     await db.read()
     const { weather } = db.data
-    //  console.log(weather)
-    console.log('hello mars')
     res.status(200).send(weather);
   } catch (error) {
     console.log(error);
@@ -23,23 +21,24 @@ exports.getToday = async (req, res, next) => {
   try {
     await db.read()
     const { weather } = db.data
-    // console.log(db.data)
-
-    // const marsArray = JSON.parse(weather)
-    // console.log(marsArray)
-    const today = weather.find(element => element.sol === 3233)
-    console.log(today)
-
-    // res.status(200).send(today.min_temp.toString(), today.max_temp.toString());
-
+    let todaysDate = new Date();
+    let date = todaysDate.getFullYear() + '-' + (todaysDate.getMonth() + 1) + '-' + todaysDate.getDate();
+    const today = weather.find(element => element.terrestrial_date == date.toString());
     res.status(200).send({
+
+      season: today.season,
+      sol: today.sol,
+      date: today.terrestrial_date,
       minTemp: today.min_temp.toString(),
-      maxTemp: today.max_temp.toString()
+      maxTemp: today.max_temp.toString(),
+      opacity: today.atmo_opacity,
+      airPressure: today.pressure,
     });
 
   } catch (error) {
     console.log(error);
     next(error);
   }
-
 }
+
+
