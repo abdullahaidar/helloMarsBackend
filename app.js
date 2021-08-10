@@ -17,7 +17,7 @@ var logger = require("morgan");
 const axios = require("axios");
 var indexRouter = require("./routes/index");
 var usersRouter = require("./routes/users");
-var { getWeather, getToday } = require("./controller/dailyWeather");
+var { getWeather, getToday, getFiveDays } = require("./controller/dailyWeather");
 
 var app = express();
 
@@ -42,6 +42,7 @@ app.use("/", indexRouter);
 app.use("/users", usersRouter);
 app.use("/weather", getWeather);
 app.use("/today", getToday);
+app.use("/five-days", getFiveDays);
 
 // catch 404 and forward to error handler
 app.use(function (req, res, next) {
