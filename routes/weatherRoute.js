@@ -2,10 +2,11 @@ var express = require('express');
 var router = express.Router();
 
 
-const { getWeather, getToday, getSixDays } = require('../controller/dailyWeather')
+const { getWeather, getToday, getFiveDays } = require('../controller/dailyWeather')
 
 router.route('/').get(getWeather)
 router.route('/today').get(getToday)
+router.route('/five-days').get(getFiveDays)
 
 
 
