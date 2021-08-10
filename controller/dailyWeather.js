@@ -24,21 +24,17 @@ exports.getToday = async (req, res, next) => {
     await db.read()
     const { weather } = db.data
     let now = new Date();
-    console.log(now)
-    let date = now.getFullYear() + '-' + (now.getMonth() + 1) + '-' + now.getDate();
-    console.log(date)
-    const today = weather.find(element => element.terrestrial_date == date.toString());
+    let todayDate = date.format(now, 'YYYY-MM-DD');
+    const todayWeather = weather.find(element => element.terrestrial_date == todayDate);
     res.status(200).send({
-
-      season: today.season,
-      sol: today.sol,
-      date: today.terrestrial_date,
-      minTemp: today.min_temp.toString(),
-      maxTemp: today.max_temp.toString(),
-      opacity: today.atmo_opacity,
-      airPressure: today.pressure,
+      date: todayWeather.terrestrial_date,
+      sol: todayWeather.sol,
+      season: todayWeather.season,
+      minTemp: todayWeather.min_temp.toString(),
+      maxTemp: todayWeather.max_temp.toString(),
+      opacity: todayWeather.atmo_opacity,
+      airPressure: todayWeather.pressure,
     });
-
   } catch (error) {
     console.log(error);
     next(error);
@@ -76,9 +72,9 @@ exports.getFiveDays = async (req, res, next) => {
       // console.log(weatherData)
 
       weatherForFiveDays.push({
-        season: weatherData.season,
-        sol: weatherData.sol,
         date: weatherData.terrestrial_date,
+        sol: weatherData.sol,
+        season: weatherData.season,
         minTemp: weatherData.min_temp.toString(),
         maxTemp: weatherData.max_temp.toString(),
         opacity: weatherData.atmo_opacity,
