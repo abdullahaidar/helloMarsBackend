@@ -74,11 +74,11 @@ exports.getFiveDays = async (req, res, next) => {
       weatherForFiveDays.push({
         date: weatherData.terrestrial_date,
         sol: weatherData.sol,
-        season: weatherData.season,
+        // season: weatherData.season,
         minTemp: weatherData.min_temp.toString(),
         maxTemp: weatherData.max_temp.toString(),
-        opacity: weatherData.atmo_opacity,
-        airPressure: weatherData.pressure,
+        // opacity: weatherData.atmo_opacity,
+        // airPressure: weatherData.pressure,
       })
     })
     res.status(200).send(weatherForFiveDays);
