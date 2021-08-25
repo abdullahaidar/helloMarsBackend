@@ -27,7 +27,7 @@ exports.getToday = async (req, res, next) => {
     let todayDate = date.format(now, 'YYYY-MM-DD');
     const todayWeather = weather.find(element => element.terrestrial_date == todayDate);
     res.status(200).send({
-      date: todayWeather.terrestrial_date,
+      date: todayWeather.date,
       sol: todayWeather.sol,
       season: todayWeather.season,
       minTemp: todayWeather.min_temp.toString(),
@@ -72,7 +72,7 @@ exports.getFiveDays = async (req, res, next) => {
       // console.log(weatherData)
 
       weatherForFiveDays.push({
-        date: weatherData.terrestrial_date,
+        date: weatherData.date,
         sol: weatherData.sol,
         // season: weatherData.season,
         minTemp: weatherData.min_temp.toString(),

@@ -3,6 +3,7 @@
     {
       "id": 3255,
       "terrestrial_date": "2021-09-30",
+      "date": "30. Sep.",
       "sol": 3263,
       "ls": 203,
       "month": "Month 7",
@@ -19,6 +20,7 @@
     {
       "id": 3254,
       "terrestrial_date": "2021-09-29",
+      "date": "29. Sep.",
       "sol": 3262,
       "ls": 202,
       "month": "Month 7",
@@ -35,6 +37,7 @@
     {
       "id": 3253,
       "terrestrial_date": "2021-09-28",
+      "date": "28. Sep.",
       "sol": 3261,
       "ls": 202,
       "month": "Month 7",
@@ -51,6 +54,7 @@
     {
       "id": 3252,
       "terrestrial_date": "2021-09-27",
+      "date": "27. Sep.",
       "sol": 3260,
       "ls": 201,
       "month": "Month 7",
@@ -67,6 +71,7 @@
     {
       "id": 3250,
       "terrestrial_date": "2021-09-26",
+      "date": "26. Sep.",
       "sol": 3259,
       "ls": 201,
       "month": "Month 7",
@@ -83,6 +88,7 @@
     {
       "id": 3249,
       "terrestrial_date": "2021-09-25",
+      "date": "25. Sep.",
       "sol": 3258,
       "ls": 200,
       "month": "Month 7",
@@ -99,6 +105,7 @@
     {
       "id": 3248,
       "terrestrial_date": "2021-09-24",
+      "date": "24. Sep.",
       "sol": 3257,
       "ls": 199,
       "month": "Month 7",
@@ -115,6 +122,7 @@
     {
       "id": 3247,
       "terrestrial_date": "2021-09-23",
+      "date": "23. Sep.",
       "sol": 3256,
       "ls": 199,
       "month": "Month 7",
@@ -131,6 +139,7 @@
     {
       "id": 3246,
       "terrestrial_date": "2021-09-22",
+      "date": "22. Sep.",
       "sol": 3255,
       "ls": 198,
       "month": "Month 7",
@@ -147,6 +156,7 @@
     {
       "id": 3245,
       "terrestrial_date": "2021-09-21",
+      "date": "21. Sep.",
       "sol": 3254,
       "ls": 198,
       "month": "Month 7",
@@ -163,6 +173,7 @@
     {
       "id": 3244,
       "terrestrial_date": "2021-09-20",
+      "date": "20. Sep.",
       "sol": 3253,
       "ls": 197,
       "month": "Month 7",
@@ -179,6 +190,7 @@
     {
       "id": 3243,
       "terrestrial_date": "2021-09-19",
+      "date": "19. Sep.",
       "sol": 3252,
       "ls": 196,
       "month": "Month 7",
@@ -195,6 +207,7 @@
     {
       "id": 3242,
       "terrestrial_date": "2021-09-18",
+      "date": "18. Sep.",
       "sol": 3251,
       "ls": 196,
       "month": "Month 7",
@@ -211,6 +224,7 @@
     {
       "id": 3241,
       "terrestrial_date": "2021-09-17",
+      "date": "17. Sep.",
       "sol": 3250,
       "ls": 195,
       "month": "Month 7",
@@ -227,6 +241,7 @@
     {
       "id": 3240,
       "terrestrial_date": "2021-09-16",
+      "date": "16. Sep.",
       "sol": 3249,
       "ls": 195,
       "month": "Month 7",
@@ -243,6 +258,7 @@
     {
       "id": 3239,
       "terrestrial_date": "2021-09-15",
+      "date": "15. Sep.",
       "sol": 3248,
       "ls": 194,
       "month": "Month 7",
@@ -259,6 +275,7 @@
     {
       "id": 3238,
       "terrestrial_date": "2021-09-14",
+      "date": "14. Sep.",
       "sol": 3247,
       "ls": 193,
       "month": "Month 7",
@@ -275,6 +292,7 @@
     {
       "id": 3237,
       "terrestrial_date": "2021-09-13",
+      "date": "13. Sep.",
       "sol": 3246,
       "ls": 193,
       "month": "Month 7",
@@ -291,6 +309,7 @@
     {
       "id": 3236,
       "terrestrial_date": "2021-09-12",
+      "date": "12. Sep.",
       "sol": 3245,
       "ls": 192,
       "month": "Month 7",
@@ -307,6 +326,7 @@
     {
       "id": 3235,
       "terrestrial_date": "2021-09-11",
+      "date": "11. Sep.",
       "sol": 3244,
       "ls": 192,
       "month": "Month 7",
@@ -323,6 +343,7 @@
     {
       "id": 3234,
       "terrestrial_date": "2021-09-10",
+      "date": "10. Sep.",
       "sol": 3243,
       "ls": 191,
       "month": "Month 7",
@@ -339,6 +360,7 @@
     {
       "id": 3233,
       "terrestrial_date": "2021-09-09",
+      "date": "9. Sep.",
       "sol": 3242,
       "ls": 190,
       "month": "Month 7",
@@ -355,6 +377,7 @@
     {
       "id": 3232,
       "terrestrial_date": "2021-09-08",
+      "date": "8. Sep.",
       "sol": 3241,
       "ls": 190,
       "month": "Month 7",
@@ -371,6 +394,7 @@
     {
       "id": 3231,
       "terrestrial_date": "2021-09-07",
+      "date": "7. Sep.",
       "sol": 3240,
       "ls": 189,
       "month": "Month 7",
@@ -387,6 +411,7 @@
     {
       "id": 3230,
       "terrestrial_date": "2021-09-06",
+      "date": "6. Sep.",
       "sol": 3239,
       "ls": 189,
       "month": "Month 7",
@@ -403,6 +428,7 @@
     {
       "id": 3229,
       "terrestrial_date": "2021-09-05",
+      "date": "5. Sep.",
       "sol": 3238,
       "ls": 188,
       "month": "Month 7",
@@ -419,6 +445,7 @@
     {
       "id": 3228,
       "terrestrial_date": "2021-09-04",
+      "date": "4. Sep.",
       "sol": 3237,
       "ls": 187,
       "month": "Month 7",
@@ -435,6 +462,7 @@
     {
       "id": 3227,
       "terrestrial_date": "2021-09-03",
+      "date": "3. Sep.",
       "sol": 3236,
       "ls": 187,
       "month": "Month 7",
@@ -451,6 +479,7 @@
     {
       "id": 3226,
       "terrestrial_date": "2021-09-02",
+      "date": "2. Sep.",
       "sol": 3235,
       "ls": 186,
       "month": "Month 7",
@@ -467,6 +496,7 @@
     {
       "id": 3225,
       "terrestrial_date": "2021-09-01",
+      "date": "1. Sep.",
       "sol": 3234,
       "ls": 186,
       "month": "Month 7",
@@ -483,6 +513,7 @@
     {
       "id": 3224,
       "terrestrial_date": "2021-08-31",
+      "date": "31. Aug.",
       "sol": 3233,
       "ls": 185,
       "month": "Month 7",
@@ -499,6 +530,7 @@
     {
       "id": 3223,
       "terrestrial_date": "2021-08-30",
+      "date": "30. Aug.",
       "sol": 3232,
       "ls": 184,
       "month": "Month 7",
@@ -515,6 +547,7 @@
     {
       "id": 3222,
       "terrestrial_date": "2021-08-29",
+      "date": "29. Aug.",
       "sol": 3231,
       "ls": 184,
       "month": "Month 7",
@@ -531,6 +564,7 @@
     {
       "id": 3221,
       "terrestrial_date": "2021-08-28",
+      "date": "28. Aug.",
       "sol": 3230,
       "ls": 183,
       "month": "Month 7",
@@ -547,6 +581,7 @@
     {
       "id": 3220,
       "terrestrial_date": "2021-08-27",
+      "date": "27. Aug.",
       "sol": 3229,
       "ls": 183,
       "month": "Month 7",
@@ -563,6 +598,7 @@
     {
       "id": 3219,
       "terrestrial_date": "2021-08-26",
+      "date": "26. Aug.",
       "sol": 3228,
       "ls": 182,
       "month": "Month 7",
@@ -579,6 +615,7 @@
     {
       "id": 3218,
       "terrestrial_date": "2021-08-25",
+      "date": "25. Aug.",
       "sol": 3227,
       "ls": 181,
       "month": "Month 7",
@@ -595,6 +632,7 @@
     {
       "id": 3217,
       "terrestrial_date": "2021-08-24",
+      "date": "24. Aug.",
       "sol": 3226,
       "ls": 181,
       "month": "Month 7",
@@ -611,6 +649,7 @@
     {
       "id": 3216,
       "terrestrial_date": "2021-08-23",
+      "date": "23. Aug.",
       "sol": 3225,
       "ls": 180,
       "month": "Month 7",
@@ -627,6 +666,7 @@
     {
       "id": 3215,
       "terrestrial_date": "2021-08-22",
+      "date": "22. Aug.",
       "sol": 3224,
       "ls": 180,
       "month": "Month 7",
@@ -643,6 +683,7 @@
     {
       "id": 3214,
       "terrestrial_date": "2021-08-21",
+      "date": "21. Aug.",
       "sol": 3223,
       "ls": 179,
       "month": "Month 6",
@@ -659,6 +700,7 @@
     {
       "id": 3213,
       "terrestrial_date": "2021-08-20",
+      "date": "20. Aug.",
       "sol": 3222,
       "ls": 179,
       "month": "Month 6",
@@ -675,6 +717,7 @@
     {
       "id": 3212,
       "terrestrial_date": "2021-08-19",
+      "date": "19. Aug.",
       "sol": 3221,
       "ls": 178,
       "month": "Month 6",
@@ -691,6 +734,7 @@
     {
       "id": 3211,
       "terrestrial_date": "2021-08-18",
+      "date": "18. Aug.",
       "sol": 3220,
       "ls": 177,
       "month": "Month 6",
@@ -707,6 +751,7 @@
     {
       "id": 3210,
       "terrestrial_date": "2021-08-17",
+      "date": "17. Aug.",
       "sol": 3219,
       "ls": 177,
       "month": "Month 6",
@@ -723,6 +768,7 @@
     {
       "id": 3209,
       "terrestrial_date": "2021-08-16",
+      "date": "16. Aug.",
       "sol": 3218,
       "ls": 176,
       "month": "Month 6",
@@ -739,6 +785,7 @@
     {
       "id": 3208,
       "terrestrial_date": "2021-08-15",
+      "date": "15. Aug.",
       "sol": 3217,
       "ls": 176,
       "month": "Month 6",
@@ -755,6 +802,7 @@
     {
       "id": 3207,
       "terrestrial_date": "2021-08-14",
+      "date": "14. Aug.",
       "sol": 3216,
       "ls": 175,
       "month": "Month 6",
@@ -771,6 +819,7 @@
     {
       "id": 3206,
       "terrestrial_date": "2021-08-13",
+      "date": "13. Aug.",
       "sol": 3215,
       "ls": 175,
       "month": "Month 6",
@@ -787,6 +836,7 @@
     {
       "id": 3205,
       "terrestrial_date": "2021-08-12",
+      "date": "12. Aug.",
       "sol": 3214,
       "ls": 174,
       "month": "Month 6",
@@ -803,6 +853,7 @@
     {
       "id": 3204,
       "terrestrial_date": "2021-08-11",
+      "date": "11. Aug.",
       "sol": 3213,
       "ls": 173,
       "month": "Month 6",
@@ -819,6 +870,7 @@
     {
       "id": 3203,
       "terrestrial_date": "2021-08-10",
+      "date": "10. Aug.",
       "sol": 3212,
       "ls": 173,
       "month": "Month 6",
@@ -835,6 +887,7 @@
     {
       "id": 3202,
       "terrestrial_date": "2021-08-09",
+      "date": "9. Aug.",
       "sol": 3211,
       "ls": 172,
       "month": "Month 6",
@@ -851,6 +904,7 @@
     {
       "id": 3201,
       "terrestrial_date": "2021-08-08",
+      "date": "8. Aug.",
       "sol": 3210,
       "ls": 172,
       "month": "Month 6",
@@ -867,6 +921,7 @@
     {
       "id": 3200,
       "terrestrial_date": "2021-08-07",
+      "date": "7. Aug.",
       "sol": 3209,
       "ls": 171,
       "month": "Month 6",
@@ -883,6 +938,7 @@
     {
       "id": 3199,
       "terrestrial_date": "2021-08-06",
+      "date": "6. Aug.",
       "sol": 3208,
       "ls": 171,
       "month": "Month 6",
@@ -899,6 +955,7 @@
     {
       "id": 3198,
       "terrestrial_date": "2021-08-05",
+      "date": "5. Aug.",
       "sol": 3207,
       "ls": 170,
       "month": "Month 6",
@@ -915,6 +972,7 @@
     {
       "id": 3197,
       "terrestrial_date": "2021-08-04",
+      "date": "4. Aug.",
       "sol": 3206,
       "ls": 169,
       "month": "Month 6",
@@ -931,6 +989,7 @@
     {
       "id": 3196,
       "terrestrial_date": "2021-08-03",
+      "date": "3. Aug.",
       "sol": 3205,
       "ls": 169,
       "month": "Month 6",
@@ -947,6 +1006,7 @@
     {
       "id": 3195,
       "terrestrial_date": "2021-08-02",
+      "date": "2. Aug.",
       "sol": 3204,
       "ls": 168,
       "month": "Month 6",
@@ -963,6 +1023,7 @@
     {
       "id": 3194,
       "terrestrial_date": "2021-08-01",
+      "date": "1. Aug.",
       "sol": 3203,
       "ls": 168,
       "month": "Month 6",
